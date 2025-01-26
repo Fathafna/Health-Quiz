@@ -1,0 +1,134 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('111.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Cover the entire viewport */
+  font-family: 'Poppins', sans-serif; /* Change font to Poppins */
+  color: #333; /* Set a dark gray color for text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  max-width: 600px; /* Max width for the container */
+  margin: 50px auto; /* Center the container */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  animation: fadeIn 0.5s; /* Animation for container */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1, h2 {
+  text-align: center; /* Center align headings */
+  color: #2c3e50; /* Darker color for headings */
+}
+
+h1 {
+  font-size: 2.5em; /* Increase font size */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#userInfo {
+  background: rgba(255, 255, 255, 0.9); /* Slightly more opaque background for user info */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the user info section */
+}
+
+label {
+  display: inline-block; /* Change to inline-block for horizontal alignment */
+  margin: 10px 15px; /* Space between labels */
+  font-size: 1.1em; /* Slightly larger font size */
+}
+
+input[type="number"], input[type="radio"] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside the input fields */
+  margin: 5px 0 15px; /* Margin for spacing */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1em; /* Font size for input text */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="number"]:focus, input[type="radio"]:focus {
+  border-color: #3498db; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #3498db; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1.2em; /* Increase font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+  animation: bounce 0.5s; /* Animation for button */
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+#quizSection {
+  display: none; /* Initially hidden */
+}
+
+.question {
+  margin-bottom: 20px; /* Space between questions */
+  border-bottom: 1px solid #ccc; /* Divider line */
+  padding-bottom: 10px; /* Padding below each question */
+  color: black; /* Change question text color to black */
+}
+
+.question h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #151514;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#messageContainer {
+  margin-top: 10px; /* Space above message */
+  font-weight: bold; /* Bold text for messages */
+  color: red; /* Color for error messages */
+}
