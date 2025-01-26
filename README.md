@@ -1,15 +1,16 @@
 
+
 # [health quiz] 🎯
 
 
 ## Basic Details
-### Team Name: [TechSparkTrio]
+### Team Name: TechSparkTrio
 
 
 ### Team Members
-- Member 1: [Nafeesa Shaimah k.s] - [L.B.S College of engineering kasaragod]
-- Member 2: [Fathima Afna z.m] - [L.B.S College of engineering kasaragod]
-- Member 3: [K.N Fathima Nashika] - [L.B.S College of engineering kasaragod]
+- Member 1: Nafeesa Shaimah k.s - L.B.S College of engineering kasaragod
+- Member 2: Fathima Afna z.m - L.B.S College of engineering kasaragod
+- Member 3: K.N Fathima Nashika - L.B.S College of engineering kasaragod
 
 ### Hosted Project Link
 [mention your project hosted project link here]
@@ -19,7 +20,6 @@
 
 ### The Problem statement
 [What ridiculous problem are you solving?]
-
 ### The Solution
 [How are you solving it? Keep it fun!]
 
